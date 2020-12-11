@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Your Details Site</title>
+</head>
+
+<body>
+  <h3>Your Details</h3>
+  <form action="mailto:asfiyashaik24@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Type your name</label>
+    <input type="text" name="name">
+
+    <br /><br />
+    <label for="date">Enter your date of birth</label>
+    <input type="date" /><br /><br />
+    <p>Gender</p>
+    <input type="radio" id="male" name="Gender" value="male" />
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="Gender" value="female" />
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="Gender" value="other" />
+    <label for="other">Other</label><br /><br />
+    <label for="color"> Choose your favourite colour</label>
+    <input type="color" name="color" /><br /><br />
+    <h3>Contact Me</h3>
+    <label for="email">Your Email</label>
+    <input type="email" name="email"/><br />
+    <p>
+      Your Message
+      </p>
+    <textarea name="Your Message" rows="10" cols="50"></textarea>
+    <p>
+      Upload  a file
+      </p>
+      <input type="file" accept="image/jpeg,image/x-png,text/html,video/x-msvideo,application/msword,
+      application/msexcel,text/plain,audio/x-mpeg,application/pdf,application/x-zip-compressed" name"file" />
+      <p>
+        How did you feel about my first ever website using HTML?
+        </p>
+        <input type="range" name="range"><br /><br />
+        <input type="submit"  value="Submit">
+  </form>
+</body>
+
+</html>
